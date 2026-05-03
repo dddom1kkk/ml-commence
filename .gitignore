@@ -1,0 +1,27 @@
+# Environments
+ml-env/
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data files (use DVC in Week 4 instead)
+*.csv
+*.parquet
+*.json
+data/raw/
+data/processed/
+
+# Models
+*.pkl
+*.pt
+*.h5
+mlruns/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
