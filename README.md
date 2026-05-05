@@ -21,16 +21,16 @@ Two production-grade ML projects:
 
 ## Progress
 
-| Course                      | Status         | Key Output           |
-| --------------------------- | -------------- | -------------------- |
-| Kaggle: Pandas              | ✅ Done        | Titanic EDA notebook |
-| Kaggle: Intro to ML         | 🔄 In progress |                      |
-| Kaggle: Intermediate ML     | ⬜             |                      |
-| Kaggle: Feature Engineering | ⬜             |                      |
-| Karpathy: Zero to Hero      | ⬜             |                      |
-| fast.ai Part 1              | ⬜             |                      |
-| Made With ML                | ⬜             |                      |
-| DataTalks MLOps Zoomcamp    | ⬜             |                      |
+| Course                      | Status         |
+| --------------------------- | -------------- |
+| Kaggle: Pandas              | ✅ Done        |
+| Kaggle: Intro to ML         | 🔄 In progress |
+| Kaggle: Intermediate ML     | ⬜             |
+| Kaggle: Feature Engineering | ⬜             |
+| Karpathy: Zero to Hero      | ⬜             |
+| fast.ai Part 1              | ⬜             |
+| Made With ML                | ⬜             |
+| DataTalks MLOps Zoomcamp    | ⬜             |
 
 **LeetCode: 0 / 50 mediums** (NeetCode order)
 
