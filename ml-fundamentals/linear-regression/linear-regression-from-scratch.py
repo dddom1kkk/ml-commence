@@ -1,6 +1,6 @@
 import random
 import math
-from linearRegressionClass import LinearRegression
+from LinearRegressionClass import LinearRegression
 
 random.seed(42)
 
