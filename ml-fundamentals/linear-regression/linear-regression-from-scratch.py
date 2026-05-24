@@ -2,7 +2,7 @@ import random
 import math
 from LinearRegressionClass import LinearRegression
 
-random.seed(42)
+random.seed(90)
 
 WEIGHT = 3.0
 BIAS = 7.0
@@ -18,3 +18,4 @@ model = LinearRegression()
 model.fit(X, y)
 # y_pred = model.predict(X)
 print(f"{model.w:.4f} and {model.b:.4f}")
+print(f"{model.r_squared(X, y):.4f}")

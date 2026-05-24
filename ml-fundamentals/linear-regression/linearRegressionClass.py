@@ -30,3 +30,10 @@ class LinearRegression:
             if i % print_epoch == 0:
                 print(print(f"  Epoch {i:4d} | Cost: {cost:.4f} | w: {self.w:.4f} | b: {self.b:.4f}"))
         return self
+    
+    def r_squared(self, X, y):
+        y_pred = self.predict(X)
+        y_mean = sum(y) / len(y)
+        ss_res = sum((i - j) ** 2 for i, j in zip(y_pred, y))
+        ss_tot = sum((i - y_mean) ** 2 for i in y)
+        return 1 - (ss_res / ss_tot)
