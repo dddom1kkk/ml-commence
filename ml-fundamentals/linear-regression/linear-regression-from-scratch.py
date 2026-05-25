@@ -1,6 +1,7 @@
 import random
 import math
 from LinearRegressionClass import LinearRegression
+from LinearRegressionNormalClass import LinearRegressionNormal
 
 random.seed(90)
 
@@ -17,5 +18,11 @@ y = [WEIGHT * x + BIAS + random.gauss(0, 2) for x in X]
 model = LinearRegression()
 model.fit(X, y)
 # y_pred = model.predict(X)
-print(f"{model.w:.4f} and {model.b:.4f}")
+print(f"1D Linear Regression {model.w:.4f} and {model.b:.4f}")
 print(f"{model.r_squared(X, y):.4f}")
+
+model_normal = LinearRegressionNormal()
+model_normal.fit(X, y)
+
+print(f"Normal Equation Linear Regression {model_normal.w:.4f} and {model_normal.b:.4f}")
+print(f"{model_normal.r_squared(X, y):.4f}")
